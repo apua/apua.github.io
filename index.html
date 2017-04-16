@@ -568,27 +568,38 @@ a { text-decoration: none; }
 <p class="subtitle" id="id2">自由組合任意中文字</p>
 <dl class="docinfo simple">
 <dt class="version">Version</dt>
-<dd class="version">2</dd>
+<dd class="version">3</dd>
 </dl>
-<div class="section" id="abstract">
-<h1>Abstract</h1>
-<p>中文方塊字可以自由組合，但目前的系統（包含文字系統本身/input device/input method/encode/render text engine）並沒有提供組合的可能，這使得中文世界很多項目沒辦法轉移到現代資訊科技上，也喪失非常多的可能性。</p>
-<p>五線譜、梵文經書、數學符號、表情圖案... 在許多人的努力之下，
-已經有非常多特別的文字系統能以公定格式傳輸，並用不同的裝置呈現完整的資訊；
-方塊字與組字系統理應也能基於前人打下的基礎搬到計算機的世界。</p>
-<p>本文將列出相關問題進行討論並整理出 requirement 以作為之後研究 proposal 的基礎。
-除此之外，也會重新審視方塊字的歷史、價值、與未來用途。</p>
-</div>
-<div class="section" id="introduction">
-<h1>Introduction</h1>
-<p>中文的方塊字跟歐洲語系的拼音系統不同，我們可以任意組合新的字並賦予其新的意義。
-例如，古琴譜藉由組出不同的方塊字來描述指法，春聯中有把「招財進寶」四個字相黏而成的方塊字來表達其意義。
-現階段很多抽象與先進的觀念大都不使用中文字來表達，而現今中文字本身又帶有很多模稜兩可的解讀，
-中文字似乎沒有可取之處 — 除了方塊字彈性的組合能力之外。</p>
-<p>.... (ry</p>
-</div>
+<p>Todo</p>
+<hr class="docutils" />
+<p><a class="reference external" href="https://zh.wikipedia.org/wiki/%E6%80%9D%E6%BA%90%E5%AE%8B%E4%BD%93#OpenType.E5.AD.97.E4.BD.93.E5.8A.9F.E8.83.BD">思源宋體</a> 有提供組字功能, 要試一下:</p>
+<ul class="simple">
+<li><p>古琴譜</p></li>
+<li><p>招財進寶</p></li>
+<li><p>三朵雲三條龍</p></li>
+</ul>
+<p>但即便思源宋體可以做到 render, 是否好用可能還要瞭解一下, 且文字的使用仍然需要 review</p>
+<!-- Abstract -->
+<!-- ==================== -->
+<!-- 中文方塊字可以自由組合，但目前的系統（包含文字系統本身/input device/input method/encode/render text engine）並沒有提供組合的可能，這使得中文世界很多項目沒辦法轉移到現代資訊科技上，也喪失非常多的可能性。 -->
+<!-- 五線譜、梵文經書、數學符號、表情圖案... 在許多人的努力之下， -->
+<!-- 已經有非常多特別的文字系統能以公定格式傳輸，並用不同的裝置呈現完整的資訊； -->
+<!-- 方塊字與組字系統理應也能基於前人打下的基礎搬到計算機的世界。 -->
+<!-- 本文將列出相關問題進行討論並整理出 requirement 以作為之後研究 proposal 的基礎。 -->
+<!-- 除此之外，也會重新審視方塊字的歷史、價值、與未來用途。 -->
+<!-- Introduction -->
+<!-- ==================== -->
+<!--  -->
+<!-- 中文的方塊字跟歐洲語系的拼音系統不同，我們可以任意組合新的字並賦予其新的意義。 -->
+<!-- 例如，古琴譜藉由組出不同的方塊字來描述指法，春聯中有把「招財進寶」四個字相黏而成的方塊字來表達其意義。 -->
+<!-- 現階段很多抽象與先進的觀念大都不使用中文字來表達，而現今中文字本身又帶有很多模稜兩可的解讀， -->
+<!-- 中文字似乎沒有可取之處 — 除了方塊字彈性的組合能力之外。 -->
+<!--  -->
+<!-- .... (ry -->
 <div class="section" id="issues">
 <h1>Issues</h1>
+<p><a class="reference external" href="https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E8%AF%AD">世界語</a></p>
+<hr class="docutils" />
 <p>歐洲和日文都是拼音 ; 中文的是組字 , 不應該跟他們一樣用 mapping</p>
 <hr class="docutils" />
 <p>拼音只需要把一堆代號按順序打出來 , 而人類的手已經驗證過適合彈鋼琴 , 用同樣的概念而設計出的鍵盤確實是適合按順序輸入拼音</p>
