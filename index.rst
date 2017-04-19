@@ -49,6 +49,20 @@ Todo
 Issues
 ====================
 
+Zhu, Ray:
+
+    韓文也是方塊字, 用類似倉頡的東西, 但主要是文字的組成不同, 韓文用有限的小東西組成字, 他們很適合那樣用
+    
+    https://namu.wiki/w/%EC%B2%9C%EC%A7%80%EC%9D%B8%20%EC%9E%90%ED%8C%90
+    
+    .. image:: hangul.jpg
+    
+    另外是西夏文
+    
+    .. image:: 27.jpg
+
+--------------------
+
 `世界語 <https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E8%AF%AD>`_
 
 --------------------
